@@ -1,4 +1,4 @@
-# dsh-review-skill
+# review-design
 
 一个关注代码设计质量的 review skill：检查改动是否必要、职责是否合理，以及是否存在满足需求的更简单实现。
 
@@ -14,7 +14,7 @@
 
 ## 使用
 
-将 [SKILL.md](SKILL.md) 加载到支持 skill 的代码代理中，技能名称为 `review-code`。
+将 [SKILL.md](SKILL.md) 加载到支持 skill 的代码代理中，技能名称为 `review-design`。
 
 也可以直接给代理这样的任务：
 
@@ -45,7 +45,7 @@
 
 ## 版本校验
 
-本仓库保留参与评测的原始文本，未作人工修改。
+评测使用改名前的版本；当前仅将技能名称和标题改为 `review-design` / `Review Design`，审查正文保持不变。
 
 SKILL.md SHA256：
-76a8c12444a2f252faee6d95a21b41e12f0d2f5839057e003cfd7c763056b1e8
+1524d06af3a337ae8fe442a174221b2e64e39f129ec574b4e6404f4ac9360d6f

@@ -1,9 +1,9 @@
 ---
-name: review-code
+name: review-design
 description: Review code, diffs, commits, and pull requests for unnecessary complexity, public API growth, duplicated authority, and simpler viable designs. Include change counts and material tradeoffs; scrutinize frontend data flow, shared control changes, and new remote events.
 ---
 
-# Review Code
+# Review Design
 
 Decide which design costs are justified. Treat the submitted change as one candidate design, not as the specification of what is needed. Establish what is actually required from evidence outside the change, sketch the smallest implementation that meets it with existing mechanisms, and then judge the submission against that sketch. Preserve real behavior and safety throughout. Report correctness and security defects you encounter without claiming a complete audit.
 
